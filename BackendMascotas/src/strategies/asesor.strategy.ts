@@ -8,14 +8,14 @@ import parseBearerToken from "parse-bearer-token";
 import { ParsedQs } from "qs";
 import { service } from "@loopback/core";
 
-export class EstrategiaAdministrador implements AuthenticationStrategy{
-    name: string = 'admin';
-
+export class EstrategiaAsesor implements AuthenticationStrategy{
+    name: string= 'asesor';
     constructor(
-         @service(AutenticacionService)
-        public servicioAutenticacion : AutenticacionService
-      ) {}
-    async authenticate(request: Request): Promise<UserProfile | undefined> {
+        @service(AutenticacionService)
+       public servicioAutenticacion : AutenticacionService
+     ) {}
+
+     async authenticate(request: Request): Promise<UserProfile | undefined> {
         let token= parseBearerToken(request);
         if (token){
             let datos = this.servicioAutenticacion.ValidarTokenJWT(token);
@@ -37,7 +37,7 @@ export class EstrategiaAdministrador implements AuthenticationStrategy{
         }
        
     }
-   
+
 
     
 }
