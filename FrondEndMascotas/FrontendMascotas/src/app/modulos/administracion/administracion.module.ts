@@ -6,6 +6,10 @@ import { CrearUsuarioComponent } from './usuarios/crear-usuario/crear-usuario.co
 import { EditarUsuarioComponent } from './usuarios/editar-usuario/editar-usuario.component';
 import { EliminarUsuarioComponent } from './usuarios/eliminar-usuario/eliminar-usuario.component';
 import { BuscarUsuarioComponent } from './usuarios/buscar-usuario/buscar-usuario.component';
+import { BuscarMascotaComponent } from './mascotas/buscar-mascota/buscar-mascota.component';
+import { EditarMascotaComponent } from './mascotas/editar-mascota/editar-mascota.component';
+import { EliminarMascotaComponent } from './mascotas/eliminar-mascota/eliminar-mascota.component';
+import { CrearMascotaComponent } from './mascotas/crear-mascota/crear-mascota.component';
 
 
 @NgModule({
@@ -13,7 +17,11 @@ import { BuscarUsuarioComponent } from './usuarios/buscar-usuario/buscar-usuario
     CrearUsuarioComponent,
     EditarUsuarioComponent,
     EliminarUsuarioComponent,
-    BuscarUsuarioComponent
+    BuscarUsuarioComponent,
+    BuscarMascotaComponent,
+    EditarMascotaComponent,
+    EliminarMascotaComponent,
+    CrearMascotaComponent
   ],
   imports: [
     CommonModule,
