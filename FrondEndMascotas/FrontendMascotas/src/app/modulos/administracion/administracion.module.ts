@@ -14,6 +14,10 @@ import { CrearSucursalComponent } from './sucursal/crear-sucursal/crear-sucursal
 import { EditarSucursalComponent } from './sucursal/editar-sucursal/editar-sucursal.component';
 import { BuscarSucursalComponent } from './sucursal/buscar-sucursal/buscar-sucursal.component';
 import { EliminarSucursalComponent } from './sucursal/eliminar-sucursal/eliminar-sucursal.component';
+import { EliminarPlanComponent } from './plan/eliminar-plan/eliminar-plan.component';
+import { EditarPlanComponent } from './plan/editar-plan/editar-plan.component';
+import { BuscarPlanComponent } from './plan/buscar-plan/buscar-plan.component';
+import { CrearPlanComponent } from './plan/crear-plan/crear-plan.component';
 
 
 @NgModule({
@@ -29,7 +33,11 @@ import { EliminarSucursalComponent } from './sucursal/eliminar-sucursal/eliminar
     CrearSucursalComponent,
     EditarSucursalComponent,
     BuscarSucursalComponent,
-    EliminarSucursalComponent
+    EliminarSucursalComponent,
+    EliminarPlanComponent,
+    EditarPlanComponent,
+    BuscarPlanComponent,
+    CrearPlanComponent
   ],
   imports: [
     CommonModule,
