@@ -22,6 +22,10 @@ import { CrearproductoServicioComponent } from './productosServicios/crearproduc
 import { BuscarproductoServicioComponent } from './productosServicios/buscarproducto-servicio/buscarproducto-servicio.component';
 import { EditarproductoServicioComponent } from './productosServicios/editarproducto-servicio/editarproducto-servicio.component';
 import { EliminarproductoServicioComponent } from './productosServicios/eliminarproducto-servicio/eliminarproducto-servicio.component';
+import { EliminarProspectosComponent } from './prospectos/eliminar-prospectos/eliminar-prospectos.component';
+import { CrearProspectosComponent } from './prospectos/crear-prospectos/crear-prospectos.component';
+import { BuscarProspectosComponent } from './prospectos/buscar-prospectos/buscar-prospectos.component';
+import { EditarProspectosComponent } from './prospectos/editar-prospectos/editar-prospectos.component';
 
 
 @NgModule({
@@ -45,7 +49,11 @@ import { EliminarproductoServicioComponent } from './productosServicios/eliminar
     CrearproductoServicioComponent,
     BuscarproductoServicioComponent,
     EditarproductoServicioComponent,
-    EliminarproductoServicioComponent
+    EliminarproductoServicioComponent,
+    EliminarProspectosComponent,
+    CrearProspectosComponent,
+    BuscarProspectosComponent,
+    EditarProspectosComponent
   ],
   imports: [
     CommonModule,
