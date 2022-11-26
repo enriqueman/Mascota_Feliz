@@ -18,6 +18,10 @@ import { EliminarPlanComponent } from './plan/eliminar-plan/eliminar-plan.compon
 import { EditarPlanComponent } from './plan/editar-plan/editar-plan.component';
 import { BuscarPlanComponent } from './plan/buscar-plan/buscar-plan.component';
 import { CrearPlanComponent } from './plan/crear-plan/crear-plan.component';
+import { CrearproductoServicioComponent } from './productosServicios/crearproducto-servicio/crearproducto-servicio.component';
+import { BuscarproductoServicioComponent } from './productosServicios/buscarproducto-servicio/buscarproducto-servicio.component';
+import { EditarproductoServicioComponent } from './productosServicios/editarproducto-servicio/editarproducto-servicio.component';
+import { EliminarproductoServicioComponent } from './productosServicios/eliminarproducto-servicio/eliminarproducto-servicio.component';
 
 
 @NgModule({
@@ -37,7 +41,11 @@ import { CrearPlanComponent } from './plan/crear-plan/crear-plan.component';
     EliminarPlanComponent,
     EditarPlanComponent,
     BuscarPlanComponent,
-    CrearPlanComponent
+    CrearPlanComponent,
+    CrearproductoServicioComponent,
+    BuscarproductoServicioComponent,
+    EditarproductoServicioComponent,
+    EliminarproductoServicioComponent
   ],
   imports: [
     CommonModule,
