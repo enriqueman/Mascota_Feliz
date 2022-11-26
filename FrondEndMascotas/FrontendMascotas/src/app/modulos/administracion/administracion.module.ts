@@ -10,6 +10,10 @@ import { BuscarMascotaComponent } from './mascotas/buscar-mascota/buscar-mascota
 import { EditarMascotaComponent } from './mascotas/editar-mascota/editar-mascota.component';
 import { EliminarMascotaComponent } from './mascotas/eliminar-mascota/eliminar-mascota.component';
 import { CrearMascotaComponent } from './mascotas/crear-mascota/crear-mascota.component';
+import { CrearSucursalComponent } from './sucursal/crear-sucursal/crear-sucursal.component';
+import { EditarSucursalComponent } from './sucursal/editar-sucursal/editar-sucursal.component';
+import { BuscarSucursalComponent } from './sucursal/buscar-sucursal/buscar-sucursal.component';
+import { EliminarSucursalComponent } from './sucursal/eliminar-sucursal/eliminar-sucursal.component';
 
 
 @NgModule({
@@ -21,7 +25,11 @@ import { CrearMascotaComponent } from './mascotas/crear-mascota/crear-mascota.co
     BuscarMascotaComponent,
     EditarMascotaComponent,
     EliminarMascotaComponent,
-    CrearMascotaComponent
+    CrearMascotaComponent,
+    CrearSucursalComponent,
+    EditarSucursalComponent,
+    BuscarSucursalComponent,
+    EliminarSucursalComponent
   ],
   imports: [
     CommonModule,
