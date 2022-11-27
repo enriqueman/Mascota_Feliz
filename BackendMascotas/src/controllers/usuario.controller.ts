@@ -56,6 +56,7 @@ export class UsuarioController {
 
     }else{
       throw new HttpErrors[401]('Datos invalidos');
+      console.log("no se pudo :(");
     }
   }
 
@@ -92,7 +93,7 @@ export class UsuarioController {
     })
 
     return p;
-  
+
   }
 
   @get('/usuarios/count')
