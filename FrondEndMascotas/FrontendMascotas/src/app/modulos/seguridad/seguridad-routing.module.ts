@@ -5,6 +5,7 @@ import { IdentificacionComponent } from './identificacion/identificacion.compone
 import { RecuperarClaveComponent } from './recuperar-clave/recuperar-clave.component';
 
 const routes: Routes = [
+ 
   {
     path:"cambiar-clave",
     component:CambiarClaveComponent
