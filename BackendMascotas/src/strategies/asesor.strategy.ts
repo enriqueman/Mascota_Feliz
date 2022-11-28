@@ -30,14 +30,12 @@ export class EstrategiaAsesor implements AuthenticationStrategy{
 
 
             }
-            
+
         }else{
             throw new HttpErrors[401]("No esta incluido el token");
 
         }
-       
+
     }
-
-
-    
+   
 }
